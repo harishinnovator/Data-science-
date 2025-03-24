@@ -1,0 +1,12 @@
+-- // String functions or character based functions
+
+select lower('Data Enganeer') lname from dual;
+select  upper('royalhari') uname from dual;
+select length('royalhari data enganeer')  length from dual;
+select initcap('data enganeer') init_name from dual;
+select trim ('  royalhari  ') trim_name from dual;
+select ltrim ('  hari') ltrim from dual;
+select rtrim ('  hari  ') rtrim from dual;
+select lpad('royal hari','07','**') lpad from dual;
+select rpad('royalhari','18','**') rpad from dual;
+select replace('royalhari','hari','king') replace from dual;
